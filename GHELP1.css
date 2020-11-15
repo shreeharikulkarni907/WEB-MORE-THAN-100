@@ -1,0 +1,442 @@
+/*Header Start*/
+.navbar
+{
+width: 100%;
+overflow: hidden;
+height: 70px;
+line-height: 70px;
+background: #adebad;
+border-bottom: 2px solid red;
+}
+
+.logo
+{
+/*width: 70px;*/
+float: left;
+height: 80px;
+}
+.container
+{
+height: 100px;
+width: 100%;
+margin-right: auto;
+margin-bottom: auto;
+}
+
+/*This is for ul tag*/
+
+.menu
+{
+float: right;
+}
+
+.menu li
+{
+float: left;
+width: 120px;
+height: 70px;
+line-height: 70px;
+text-align: center;
+list-style: none;
+}
+
+.menu li a{
+color: #000;
+text-decoration: none;
+font-family: calibri;
+text-transform: uppercase;
+display: block;
+transition: 0.5s all;
+}
+
+.menu li:hover{
+background: #f39d1a;
+}
+h1
+{
+text-decoration: none;
+}
+/*Header End*/
+
+
+
+
+h1
+{
+	text-decoration: none;
+}
+#top-part{
+	color: blue;
+	border: 2px none;
+	border-radius: 12px 0px;
+	background-color: #adebad;
+	font-family: sans-serif;
+	padding-top: 0px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+	/*padding:10px 10px;*/
+	height: 100px;
+	text-align: center;
+}
+body{
+	background-color: #70db70;
+	margin-top: 0px;
+	border: none;
+	padding: 0;
+}
+.top-name{
+ font-family: comic sans MS;
+ font-size: 50px;
+ color: black;
+ display:inline-block;
+}
+.bar{
+	width: 65%;
+     height: 150px;
+	 background-color: #adebad;
+	 font-family:verdana;
+	 border-radius: 15px 0px;
+	 padding:10px 15px;
+	 overflow: hidden;
+}
+#side-bar{
+	width: 31%;
+	background-color:#adebad;
+	height: 900px;
+	position: absolute;
+	right: 3px;
+	border-radius: 15px 0px;
+	padding: 15px 10px;
+	font-family:verdana;
+	font-size: 15px;
+	overflow: auto;
+}
+.link{
+	font-style: none;
+	border: none;
+	font-size: 20px;
+	text-decoration: none;
+	background-color: ;
+}
+hr#abc(
+ border:3px solid #196719;
+)
+.q-box{
+background-color: #ccffcc;
+color: black;
+font-family: gotham;
+font-size:15px;
+}
+.details{
+	font-family: verdana;
+	font-size:10px;
+}
+details> summary{
+	
+	hieght:100px;
+	padding: 5px;
+	background-color: #ccffcc;
+	border:  none;
+	cursor: pointer;
+}
+details> p{
+	background-color: #ccffcc;
+	padding: 4 px;
+	border: 0px;
+	
+}
+br{hieght: 2px;}
+input{
+	position: relative;
+	bottom: 2px;
+	right: 4px;
+	height: 40px;
+	width: 450px;
+	
+}
+.ask-que{
+	border-radius: 20px;
+	width: 75px;
+	height: 35px;
+	alignment: center;
+	background-color: #095709;
+	color: white;
+	
+}
+.ask-que:hover{
+	background-color: #70db70;
+}
+
+/*
+input{
+	width:450px;
+	height: 50px;
+	text-align: left;
+	background-color:#ccffcc;
+	border: 0px;
+}
+footer{
+	position: fixed;
+	bottom: 0;
+}
+
+@media (max-height:800px){
+	footer { position: static; }
+	header { padding-top:50 px; }
+}
+
+
+.footer-distributed{
+	background-color: #006622;
+	box-sizing: border-box;
+	width: 100%;
+	height: 300px;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 50px 50px 60px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+/*
+.footer-distributed .footer-left{
+	width: 30%;
+}
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+/* The company logo */
+/*
+.footer-distributed .footer-left img{
+	width: 30%;
+}
+
+.footer-distributed h3 span{
+	color:  #e0ac1c;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+*/
+/* Footer Center */
+/*
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #e0ac1c;
+	text-decoration: none;;
+}
+*/
+
+/* Footer Right */
+/*
+.footer-distributed .footer-right{
+	width: 30%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}*/
+
+/* Here is the code for Responsive Footer */
+/* You can remove below code if you don't want Footer to be responsive */
+/*
+
+@media (max-width: 880px) {
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+} */
+.footer{
+
+	background: rgb(11, 95, 3);
+	color: #8a8a8a;
+	font-size: 17px;
+	padding: 60px 0 20px;
+}
+
+.footer p{
+	color: #8a8a8a;
+
+}
+.footer h3{
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.footer-col-1,
+.footer-col-2,
+.footer-col-3,
+.footer-col-4
+{
+	min-width: 250px;
+	margin-bottom: 20px;
+
+}
+
+.footer-col-1{
+	flex-basis: 30%;
+}
+.footer-col-2{
+	flex: 1;
+	text-align: center;
+}
+.footer-col-3{
+	width: 180px;
+	margin-bottom: 20px;
+}
+.footer-col-4{
+	flex-basis: 30%;
+}
+
+.footer-col-3,
+.footer-col-4{
+	flex-basis: 12%;
+	text-align: center;
+}
+
+ul{
+	list-style-type: none;   
+}
+
+.app-logo{
+	margin: 20px;
+
+}
+.app-logo img{
+	width: 140px;
+}
+
+.footer hr{
+	border: none;
+	background: #b5b5b5;
+	height: 1px;
+	margin: 20px 0;
+}
+.copyright{
+	text-align: center;
+}
+
+.container
+{
+/*width: 100%;*/
+margin-right: auto;
+margin-bottom: auto;
+}
+.row{
+display: flex;
+align-items: center;
+flex-wrap: wrap;
+justify-content: space-around;
+width: 100%;
+margin: 0 auto;
+}
